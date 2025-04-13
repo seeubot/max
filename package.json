@@ -1,0 +1,23 @@
+{
+  "name": "terabox-api",
+  "version": "1.0.0",
+  "description": "API to extract TeraBox file information",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["terabox", "api", "next.js", "vercel"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.4.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5"
+  }
+}
